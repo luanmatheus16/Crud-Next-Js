@@ -13,8 +13,8 @@ e por estar a procura de um layout agradavel a quem utilziar a aplicação me fe
 Então com a ajuda de um curso, aprendi mais sobre Node Js, para fazer a aplicação funcionar e gostei muito mais da linguagem do que o PHP, até porque ela indentifica erros
 de conexao com o banco de dados, e é mais simples, para quem posuí um conhecimento mais avançado do Javascript, 
 
-<h3>tentei desenvolver com NodeJs, Sequelize e SqLite, porém o banco de dados mais simples não me agradou e caso fosse utilzado em um projeto da empresa
-não seria uma experiencia agradavel, porque possui poucas opções para cadastro</h3>
+<h4>Tentei desenvolver com NodeJs, Sequelize e SqLite, porém o banco de dados mais simples não me agradou e caso fosse utilzado em um projeto da empresa
+não seria uma experiencia agradavel, porque possui poucas opções para cadastro</h4>
 
 Então, optei por tentar com as tecnologias que estava aprendendo e tinnha mais interesse, que foi o casso do NExt.JS, que além de possuír o React
 ainda possuí uma otima estrutura backend e permite hospedagem gratuita na Vercel, o que permite com que mostre minha aplicação para você funcionando 
