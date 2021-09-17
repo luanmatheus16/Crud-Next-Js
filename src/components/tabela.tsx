@@ -16,7 +16,16 @@ export default function Tabela(props: TabelaProps) {
             <tr>
                 <th className="text-left p-4">Código</th>
                 <th className="text-left p-4">Nome</th>
-                <th className="text-left p-4">Idade</th>
+                <td className="text-left p-4">Rg</td>
+                <td className="text-left p-4">Endereco</td>
+                <td className="text-left p-4">Numero</td>
+                <td className="text-left p-4">Data_Nascimento</td>
+                <td className="text-left p-4">Tel_Comercial</td>
+                <td className="text-left p-4">Tel_Residencial</td>
+                <td className="text-left p-4">Facebook</td>
+                <td className="text-left p-4">Instagram</td>
+                <td className="text-left p-4">Linkedin</td>
+                <td className="text-left p-4">Twitter</td>
                 {exibirAcoes ? <th className="p-4">Ações</th> : false}
             </tr>
         )
@@ -29,7 +38,16 @@ export default function Tabela(props: TabelaProps) {
                     className={`${i % 2 === 0 ? 'bg-purple-200' : 'bg-purple-100'}`}>
                     <td className="text-left p-4">{cliente.id}</td>
                     <td className="text-left p-4">{cliente.nome}</td>
-                    <td className="text-left p-4">{cliente.idade}</td>
+                    <td className="text-left p-4">{cliente.rg}</td>
+                    <td className="text-left p-4">{cliente.endereco}</td>
+                    <td className="text-left p-4">{cliente.numero}</td>
+                    <td className="text-left p-4">{cliente.datnascimento}</td>
+                    <td className="text-left p-4">{cliente.telcomercial}</td>
+                    <td className="text-left p-4">{cliente.telresidencial}</td>
+                    <td className="text-left p-4">{cliente.facebook}</td>
+                    <td className="text-left p-4">{cliente.instagram}</td>
+                    <td className="text-left p-4">{cliente.linkedin}</td>
+                    <td className="text-left p-4">{cliente.twitter}</td>
                     {exibirAcoes ? renderizarAcoes(cliente) : false}
                 </tr>
             )
