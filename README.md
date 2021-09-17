@@ -1,3 +1,11 @@
+<H1> Case aplication <h1>
+
+  O Projeto foi desenvolvido com o framework Next Js,
+  utilizei o firestore database como banco de dados
+  e o framework Tailwd css para o estilo da pagina
+  
+  Esse projeto tem
+  
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
