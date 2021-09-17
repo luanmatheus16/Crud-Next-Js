@@ -25,9 +25,7 @@ export default function Formulario(props: FormularioProps) {
     const [twitter, settwitter] = useState(props.cliente?.twitter ?? '')
 
     return (
-        <div className={`
-        w-full divide-x flex: table-caption;
-    `}>
+        <div>
             {id ? (
                 <Entrada
                     somenteLeitura
@@ -56,6 +54,9 @@ export default function Formulario(props: FormularioProps) {
                 valorMudou={setrg}
                 className="mb-1, w-2/5"
             />
+            <div className={`
+        w-full flex:flex-grow  ;
+    `} ></div>
             <Entrada
                 texto="Endereço"
                 valor={endereco}
@@ -68,28 +69,32 @@ export default function Formulario(props: FormularioProps) {
                 valorMudou={setnumero}
                 className="mb-1, w-1/5"
             />
-            <div>
+            <div className={`
+        flex:flex-none ;
+    `} >
+
                 <Entrada
                     texto="Data de Nascimento"
                     valor={datnascimento}
                     valorMudou={setdatnascimento}
                     className="mb-1, w-1/5"
                 />
+
                 <Entrada
                     texto="Telefone Comercial"
                     valor={telcomercial}
                     valorMudou={settelcomercial}
-                    className="mb-1, w-2/5"
+                    className="mb-1, w-1/5"
                 />
                 <div className={`
-        w-full flex:flex-grow ;
+       flex ;
 
     `}>
                     <Entrada
                         texto="Telefone Residencial"
                         valor={telresidencial}
                         valorMudou={settelresidencial}
-                        className="mb-1, w-2/5"
+                        className="mb-1, w-/5"
                     />
                     <div className={`
        flex
