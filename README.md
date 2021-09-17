@@ -53,7 +53,7 @@ posso afirmar que sou um desenvolvedor full stack e que consigo criar soluções
   como estudante de marketing, possuo uma visão avançada sobre como a experiência do usuario é importante, então acredito que 
   posso contribuir e muito para a empresa. 
   
-  Agradeço por ler até aqui
+  Agradeço por ler até aqui.
   
   atenciosamente Luan 😁
   
