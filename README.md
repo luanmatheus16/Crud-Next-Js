@@ -22,7 +22,7 @@ nesse exato momento pelo link acima, e  utilizei o firestore database da google,
 e nem um custo, além de não precisar de um servidor carissimo para colocar o site no ar e com o next, que usa o node, as requisições funcionam mais rápido.
 
 <h3> Ou seja eu consigo desenvolver uma aplicação gratuita ou com menor investimento e manutenção possívvel 
-  por conhecer e utilizar as melhores tecnologias ao menos ao meu ver do mercado. </h3>
+  por conhecer e utilizar as melhores tecnologias do mercado. </h3>
 
 E com a ajuda do Tawilnd Css consegui criar um excelente layout, e organização provida pelo React Js, as conexões e validações com o banco funcionam perfeitamente
 não são tão rapidas, devido ao plano free do Firebase, mas qualquer comando que você executar elas irão atualizar,além do github que é uma ferramenta fantastica
