@@ -7,17 +7,18 @@ import useTabelaOuForm from "./useTabelaOuForm"
 export default function useClientes() {
     const repo: ClienteRepositorio = new ColecaoCliente()
 
-    const { tabelaVisivel, formularioVisivel, exibirTabela, exibirFormulario } = useTabelaOuForm()
+    const { tabelaVisivel, exibirTabela, exibirFormulario } = useTabelaOuForm()
 
     const [cliente, setCliente] = useState<Cliente>(Cliente.vazio())
     const [clientes, setClientes] = useState<Cliente[]>([])
+    const [visivel, setVisivel] = useState<'tabela' | 'form'>('tabela');
 
     useEffect(obterTodos, [])
 
     function obterTodos() {
         repo.obterTodos().then(clientes => {
             setClientes(clientes)
-            exibirTabela()
+            setVisivel('tabela')
         })
     }
 
@@ -27,8 +28,11 @@ export default function useClientes() {
     }
 
     async function excluirCliente(cliente: Cliente) {
-        await repo.excluir(cliente)
+
+        repo.excluir(cliente)
+        exibirTabela()
         obterTodos()
+
     }
 
     function novoCliente() {
@@ -37,7 +41,9 @@ export default function useClientes() {
     }
 
     async function salvarCliente(cliente: Cliente) {
-        await repo.salvar(cliente)
+
+        repo.salvar(cliente)
+        exibirTabela()
         obterTodos()
 
     }
