@@ -2,7 +2,6 @@ import { useState } from "react";
 import Cliente from "../core/Cliente";
 import Botao from "./botao";
 import Entrada from "./Entrada";
-import MaskedInput from "../core/maskedinput";
 
 
 interface FormularioProps {
