@@ -2,6 +2,8 @@ import { useState } from "react";
 import Cliente from "../core/Cliente";
 import Botao from "./botao";
 import Entrada from "./Entrada";
+import MaskedInput from "../core/maskedinput";
+
 
 interface FormularioProps {
     cliente: Cliente
@@ -70,7 +72,7 @@ export default function Formulario(props: FormularioProps) {
                 className="mb-1, w-1/5"
             />
             <div className={`
-        flex:flex-none ;
+        flex: flex-none ;
     `} >
 
                 <Entrada
@@ -79,26 +81,26 @@ export default function Formulario(props: FormularioProps) {
                     valorMudou={setdatnascimento}
                     className="mb-1, w-1/5"
                 />
-
-                <Entrada
-                    texto="Telefone Comercial"
-                    valor={telcomercial}
-                    valorMudou={settelcomercial}
-                    className="mb-1, w-1/5"
-                />
                 <div className={`
        flex ;
 
     `}>
                     <Entrada
-                        texto="Telefone Residencial"
-                        valor={telresidencial}
-                        valorMudou={settelresidencial}
-                        className="mb-1, w-/5"
+                        texto="Telefone Comercial"
+                        valor={telcomercial}
+                        valorMudou={settelcomercial}
+                        className="mb-1, w-1/5"
                     />
                     <div className={`
        flex
     `} >
+                        <Entrada
+                            texto="Telefone Residencial"
+                            valor={telresidencial}
+                            valorMudou={settelresidencial}
+                            className="mb-1, w-/5"
+                        />
+
                         <Entrada
                             texto="Facebook"
                             valor={facebook}

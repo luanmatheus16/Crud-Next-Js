@@ -16,6 +16,7 @@ export default function Tabela(props: TabelaProps) {
             <tr>
                 <th className="text-left p-4">Código</th>
                 <th className="text-left p-4">Nome</th>
+                <td className="text-left p-4">CPF</td>
                 <td className="text-left p-4">Rg</td>
                 <td className="text-left p-4">Endereco</td>
                 <td className="text-left p-4">Numero</td>
@@ -38,6 +39,7 @@ export default function Tabela(props: TabelaProps) {
                     className={`${i % 2 === 0 ? 'bg-purple-200' : 'bg-purple-100'}`}>
                     <td className="text-left p-4">{cliente.id}</td>
                     <td className="text-left p-4">{cliente.nome}</td>
+                    <td className="text-left p-4">{cliente.cpf}</td>
                     <td className="text-left p-4">{cliente.rg}</td>
                     <td className="text-left p-4">{cliente.endereco}</td>
                     <td className="text-left p-4">{cliente.numero}</td>
