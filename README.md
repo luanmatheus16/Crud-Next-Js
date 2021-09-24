@@ -3,7 +3,7 @@
 <h2>Olá, espero que esteja bem </h2>
 
 <h4> Durante o desenvolvimento dessa aplicação, posso dizer que aprendi muito e evolui muito como programador, irei fazer uma breve descrição
-  de como foi o desenovimento do projeto, recomendo você ler tudo, para conseguir entender melhor meu conhecimento e o porque devo ser contratado. </h4>
+  de como foi o desenovimento do projeto, recomendo você ler tudo, para conseguir entender melhor meu conhecimento. </h4>
 
 </h4>Para desenvolver essa aplicação, tive que pesquisar e testar varias tecnologias e linguagens de programação, até encontrar e a melhor</h4>
 
@@ -17,21 +17,21 @@ Tentei desenvolver com NodeJs, Sequelize e SqLite, porém o banco de dados mais 
 não seria uma experiencia agradavel, porque possui poucas opções para cadastro
 
 Então, optei por tentar com as tecnologias que estava aprendendo e tinnha mais interesse, que foi o casso do Next.JS, que além de possuír o React
-ainda possuí uma otima estrutura backend e permite hospedagem gratuita na Vercel, o que permite com que mostre minha aplicação para você funcionando 
+ainda possuí uma otima estrutura e permite hospedagem gratuita na Vercel, o que permite com que mostre minha aplicação para você funcionando 
 nesse exato momento pelo link acima, e  utilizei o firestore database da google, banco de dados não relacional, o famoso NoSql, o que permite uma flexibilidade maior
 e nem um custo, além de não precisar de um servidor carissimo para colocar o site no ar e com o next, que usa o node, as requisições funcionam mais rápido.
 
 <h3> Ou seja eu consigo desenvolver uma aplicação gratuita ou com menor investimento e manutenção possívvel 
   por conhecer e utilizar as melhores tecnologias do mercado. </h3>
 
-E com a ajuda do Tawilnd Css consegui criar um excelente layout, e organização provida pelo React Js, as conexões e validações com o banco funcionam perfeitamente
+E com a ajuda do Tawilnd Css consegui criar um excelente layout, e organização provida pelo React Js, as conexões com o banco funcionam perfeitamente
 não são tão rapidas, devido ao plano free do Firebase, mas qualquer comando que você executar elas irão atualizar,além do github que é uma ferramenta fantastica
 porque o codigo aberto me ajudou muito e permitiu com que desenvolve-sse esssa aplicação, a comunidade de programação ativa 
 faz com que um programador não precise desenvolver as coisas do 0  e isso permite com que eu possa evoluir com a comunidade cada vez mais.
 
-Como foi um prazo relativamente curto (Tive 5 dias para o desenvolvimento da aplicação com o Next, isso porque perdi os outros 6 dias conhecendo e testando as outras 
+Como foi um prazo relativamente curto (Tive 12 dias para o desenvolvimento da aplicação com o Next, isso porque perdi os outros 6 dias conhecendo e testando as outras 
 tecnologias).
-Não consegui manipular melhor os dados, ordenação na tabela, pesquisa e limite de caracteres.
+Não consegui manipular melhor os dados, ordenação na tabela, pesquisa e limite de caracteres devido a ter um maior conhecimento em frontend.
 
 Porém funciona perfeitamente e é usual e contando que desenvolvi em apenas 5 dias 
 posso afirmar que sou um desenvolvedor full stack e que consigo criar soluções ainda melhores, inclusive melhorar essse sistema.
