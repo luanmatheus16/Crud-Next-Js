@@ -31,10 +31,10 @@ faz com que um programador não precise desenvolver as coisas do 0  e isso permi
 
 Como foi um prazo relativamente curto (Tive 12 dias para o desenvolvimento da aplicação com o Next, isso porque perdi os outros 6 dias conhecendo e testando as outras 
 tecnologias).
-Não consegui manipular melhor os dados, ordenação na tabela, pesquisa e limite de caracteres devido a ter um maior conhecimento em frontend.
+Não consegui manipular melhor os dados, ordenação na tabela, pesquisa e limite de caracteres devido a ter um maior conhecimento em frontend(Layout, design e telas da aplicação, façta apenas me aprofundar no Backend).
 
-Porém funciona perfeitamente e é usual e contando que desenvolvi em apenas 5 dias 
-posso afirmar que sou um desenvolvedor full stack e que consigo criar soluções ainda melhores, inclusive melhorar essse sistema.
+Porém funciona perfeitamente e é usual e contando que desenvolvi em apenas 12 dias 
+posso afirmar que consigo criar soluções ainda melhores, inclusive melhorar essse sistema.
 
 <h3> Sobre a aplicação </h3>
 
