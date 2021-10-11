@@ -5,7 +5,7 @@
 <h4> Durante o desenvolvimento dessa aplicação, posso dizer que aprendi muito e evolui muito como programador, irei fazer uma breve descrição
   de como foi o desenovimento do projeto, recomendo você ler tudo, para conseguir entender melhor meu conhecimento. </h4>
 
-</h4>Para desenvolver essa aplicação, tive que pesquisar e testar varias tecnologias e linguagens de programação, até encontrar e a melhor</h4>
+</h4>Para desenvolver essa aplicação, tive que pesquisar e testar varias tecnologias e linguagens de programação, até encontrar a melhor</h4>
 
 primeiro tentei com PHP e MySql, mas varios erros de conexão com o banco de dados, performance não tão agradadave
 e por estar a procura de um layout agradavel a quem utilziar a aplicação me fez procurar outra tecnologia.
