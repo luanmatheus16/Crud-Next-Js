@@ -2,8 +2,8 @@
 
 <h2>Olá espero que você esteja bem </h2>
 
-<h4> Durante o desenvolvimento dessa aplicação, posso dizer que aprendi muito e evolui muito como programador, irei fazer uma breve descrição
-  de como foi o desenvovimento do projeto, recomendo você ler tudo, para conseguir entender melhor meu conhecimento. </h4>
+<h3> Durante o desenvolvimento dessa aplicação, posso dizer que aprendi muito e evolui muito como programador, irei fazer uma breve descrição
+  de como foi o desenvovimento do projeto, recomendo você ler tudo, para conseguir entender melhor meu conhecimento. </h3>
 
 </h3>Para desenvolver essa aplicação, tive que pesquisar e testar varias tecnologias e linguagens de programação, até encontrar a melhor </h3>
 
@@ -12,9 +12,9 @@
 <h3>Eu consigo desenvolver uma aplicação com o menor investimento e manutenção possívvel 
   por conhecer e utilizar as melhores tecnologias do mercado. </h3>
 
-<h2> Com a ajuda do Tawilnd Css consegui criar um layout de forma mais rápida, devido a poder inserir o "Css" inline, o Next Js, utiliza o React Js  para a conexão da aplicação, utilizei o Firebase como Banco de Dados </h2>
+<h3> Com a ajuda do Tawilnd Css consegui criar um layout de forma mais rápida, devido a poder inserir o "Css" inline, o Next Js, utiliza o React Js  para a conexão da aplicação, utilizei o Firebase como Banco de Dados </h3>
 
-<h2> Desenvolvi em aproximadadente 6 dias e não tinha nenhum conhecimento na tecnologia, existem melhorias necessárias como a adição de máscaras e melhora no layout para ser mais respponsivo</h2>
+<h3> Desenvolvi em aproximadadente 6 dias e não tinha nenhum conhecimento na tecnologia, existem melhorias necessárias como a adição de máscaras e melhora no layout para ser mais respponsivo</h3>
 
 
 <h3> Sobre a aplicação </h3>
